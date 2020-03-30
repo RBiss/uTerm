@@ -13,6 +13,8 @@
 		06AA0760242A63F70038294A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06AA075F242A63F70038294A /* Assets.xcassets */; };
 		06AA0763242A63F70038294A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06AA0761242A63F70038294A /* LaunchScreen.storyboard */; };
 		06AA076B242A91D30038294A /* MonthlyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AA076A242A91D20038294A /* MonthlyController.swift */; };
+		AB076A232432981B00BCDE6F /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB076A222432981B00BCDE6F /* Expense.swift */; };
+		AB076A25243299E100BCDE6F /* RiskReturnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB076A24243299E100BCDE6F /* RiskReturnViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		06AA0762242A63F70038294A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06AA0764242A63F70038294A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06AA076A242A91D20038294A /* MonthlyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyController.swift; sourceTree = "<group>"; };
+		AB076A222432981B00BCDE6F /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		AB076A24243299E100BCDE6F /* RiskReturnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskReturnViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				06AA0758242A63F50038294A /* AppDelegate.swift */,
 				06AA075A242A63F50038294A /* ViewController.swift */,
 				06AA076A242A91D20038294A /* MonthlyController.swift */,
+				AB076A24243299E100BCDE6F /* RiskReturnViewController.swift */,
 				06AA075C242A63F50038294A /* Main.storyboard */,
+				AB076A222432981B00BCDE6F /* Expense.swift */,
 				06AA075F242A63F70038294A /* Assets.xcassets */,
 				06AA0761242A63F70038294A /* LaunchScreen.storyboard */,
 				06AA0764242A63F70038294A /* Info.plist */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB076A25243299E100BCDE6F /* RiskReturnViewController.swift in Sources */,
+				AB076A232432981B00BCDE6F /* Expense.swift in Sources */,
 				06AA075B242A63F50038294A /* ViewController.swift in Sources */,
 				06AA0759242A63F50038294A /* AppDelegate.swift in Sources */,
 				06AA076B242A91D30038294A /* MonthlyController.swift in Sources */,

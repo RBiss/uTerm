@@ -11,11 +11,27 @@ import UIKit
 
 class MonthlyController: UIViewController {
     
+    @IBOutlet var sliderLabel: UILabel!
+    var expense: Expense?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     
     
+    @IBAction func currentSliderValue(_ sender: UISlider) {
+        let sliderValue = Int(sender.value)
+        sliderLabel.text = "\(sliderValue)"
+        expense?.months = sliderValue
+        
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "toRiskVsReturn") {
+            let controller = segue.destination as! RiskReturnViewController
+            controller.data = expense
+        }
+    }
 }
-
